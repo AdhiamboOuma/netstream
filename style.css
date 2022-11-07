@@ -1,0 +1,58 @@
+* {box-sizing: border-box;}
+body {
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 4rem;
+
+}
+
+.container {
+    width: 1000;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+h2 {
+    color: rgba(245, 245, 245, 0.867);
+    font-weight: bolder;
+
+}
+button {
+    color: black;
+    background-color: rgba(245, 245, 245, 0.867);
+    padding: 1rem 3rem;
+    font-weight: bolder;
+}
+.column {
+text-align: center;
+}
+
+.green {
+    color: green;
+}
+.red {
+    color: red;
+}
+.orange {
+    color: orange;
+}
+img {
+    width: 300px;
+}
+hr {
+    height: 5px;
+    background-color: whitesmoke;
+}
+button:hover {
+    color: orchid;
+}
+@media screen and (max-width: 760px) {
+    .row {
+        align-items: center;
+        flex-direction: column;
+    }
+}
+    
